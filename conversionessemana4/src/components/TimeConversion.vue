@@ -177,7 +177,8 @@ export default {
             } else if (this.seleccion1 == 'Secs' && this.seleccion2 == 'Secs') {
                 this.resultado = this.dato;
             }
-        }
+        },
+        
     }
 }
 </script>

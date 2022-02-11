@@ -7,22 +7,29 @@
     <br>
     <center>
       <div class="row row-cols-1 row-cols-md-3 g-4">     <!-- div que contiene los componentes en columnas -->
+        
         <div class="col">
           <time-conversion/>
         </div>
+        
+        <div class="col">
+          <mass-conversion/>
+        </div>
+
         <div class="col">
           <time-conversion/>
         </div>
+
         <div class="col">
           <time-conversion/>
         </div>
+
         <div class="col">
           <time-conversion/>
         </div>
-        <div class="col">
-          <time-conversion/>
-        </div>
+        
       </div>
+
     </center>
   </div>
 </template>
@@ -30,11 +37,13 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import TimeConversion from './components/TimeConversion.vue'
+import MassConversion from './components/MassConversion.vue'
 
 export default {
   name: 'App',
   components: {
-    TimeConversion
+    TimeConversion,
+    MassConversion
   }
 }
 </script>
