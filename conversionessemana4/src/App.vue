@@ -17,7 +17,7 @@
         </div>
 
         <div class="col">
-          <time-conversion/>
+          <longitude-conversion/>
         </div>
 
         <div class="col">
@@ -38,12 +38,14 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import TimeConversion from './components/TimeConversion.vue'
 import MassConversion from './components/MassConversion.vue'
+import LongitudeConversion from './components/LongitudeConversion.vue'
 
 export default {
   name: 'App',
   components: {
     TimeConversion,
-    MassConversion
+    MassConversion,
+    LongitudeConversion
   }
 }
 </script>
