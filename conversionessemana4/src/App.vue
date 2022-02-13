@@ -21,7 +21,7 @@
         </div>
 
         <div class="col">
-          <time-conversion/>
+          <almacenamiento-conversion/>
         </div>
 
         <div class="col">
@@ -39,13 +39,15 @@
 import TimeConversion from './components/TimeConversion.vue'
 import MassConversion from './components/MassConversion.vue'
 import LongitudeConversion from './components/LongitudeConversion.vue'
+import AlmacenamientoConversion from './components/AlmacenamientoConversion.vue'
 
 export default {
   name: 'App',
   components: {
     TimeConversion,
     MassConversion,
-    LongitudeConversion
+    LongitudeConversion,
+    AlmacenamientoConversion
   }
 }
 </script>
