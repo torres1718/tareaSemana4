@@ -25,7 +25,7 @@
         </div>
 
         <div class="col">
-          <time-conversion/>
+          <Moneda titulo='Convertir monedas'/>
         </div>
         
       </div>
@@ -40,6 +40,7 @@ import TimeConversion from './components/TimeConversion.vue'
 import MassConversion from './components/MassConversion.vue'
 import LongitudeConversion from './components/LongitudeConversion.vue'
 import AlmacenamientoConversion from './components/AlmacenamientoConversion.vue'
+import Moneda from './components/Moneda.vue'
 
 export default {
   name: 'App',
@@ -47,7 +48,8 @@ export default {
     TimeConversion,
     MassConversion,
     LongitudeConversion,
-    AlmacenamientoConversion
+    AlmacenamientoConversion,
+    Moneda
   }
 }
 </script>
