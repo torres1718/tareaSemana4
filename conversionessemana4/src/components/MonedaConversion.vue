@@ -46,7 +46,7 @@
 
 <script>
 export default {
-    name:'Moneda',
+    name:'MonedaConversion',
     props:{titulo: String},
     data(){
         return{
