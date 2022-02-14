@@ -3,7 +3,7 @@
 
         <div class="card" style="width: 24rem;">
             
-            <div class="card-header text-white mb-3" style="background-color:#001485">Convertir de Longitudes</div>
+            <div class="card-header text-white mb-3" style="background-color:#001485">Convertir Almacenamiento</div>
             <!-- tabla que contiene los campos -->
             <div class="card-body">
                 <p class="card-text">
