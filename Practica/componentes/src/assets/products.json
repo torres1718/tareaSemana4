@@ -1,0 +1,9 @@
+[
+        {"productName":"Product 1","description":"Donec nec justo eget felis facilisis fermentum.", "price":2.5,"quantity":1}, 
+        {"productName":"Product 2","description":"Donec nec justo eget felis facilisis fermentum.", "price":0.50,"quantity":1},
+        {"productName":"Product 3", "description":"Donec nec justo eget felis facilisis fermentum.", "price":2.50,"quantity":1},
+        {"productName":"Product 4", "description":"Donec nec justo eget felis facilisis fermentum.", "price":3.25,"quantity":1},
+        {"productName":"Product 5", "description":"Donec nec justo eget felis facilisis fermentum.", "price":18.0,"quantity":1}
+]
+            
+    
