@@ -17,15 +17,15 @@
         </div>
 
         <div class="col">
-          <time-conversion/>
+          <longitude-conversion/>
         </div>
 
         <div class="col">
-          <time-conversion/>
+          <almacenamiento-conversion/>
         </div>
 
         <div class="col">
-          <time-conversion/>
+          <moneda-conversion titulo='Convertir monedas'/>
         </div>
         
       </div>
@@ -38,12 +38,18 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import TimeConversion from './components/TimeConversion.vue'
 import MassConversion from './components/MassConversion.vue'
+import LongitudeConversion from './components/LongitudeConversion.vue'
+import AlmacenamientoConversion from './components/AlmacenamientoConversion.vue'
+import MonedaConversion from './components/MonedaConversion.vue'
 
 export default {
   name: 'App',
   components: {
     TimeConversion,
-    MassConversion
+    MassConversion,
+    LongitudeConversion,
+    AlmacenamientoConversion,
+    MonedaConversion
   }
 }
 </script>
